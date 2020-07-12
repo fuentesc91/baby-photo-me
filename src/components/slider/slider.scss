@@ -1,0 +1,58 @@
+.slider {
+  position: relative;
+  width: 100%;
+  height: 60vw;
+  display: flex;
+  overflow: hidden;
+}
+
+.slide {
+  min-width: 100%;
+}
+
+%button-style {
+  position: absolute;
+  height: 100%;
+  width: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  transition: 0.5s;
+  // &:hover {
+  //   opacity: 0.2;
+  // }
+}
+
+.button-left {
+  left: 0;
+  @extend %button-style;
+}
+.button-right {
+  right: 0;
+  @extend %button-style;
+}
+
+.slider-bar {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.slider-button {
+  width: 1.6vw;
+  height: 1.6vw;
+  border-radius: 50%;
+  background-color: whitesmoke;
+  margin: 0 2vw;
+  opacity: 0.5;
+  transition: 0.5s;
+}
+
+.active {
+  opacity: 1;
+}

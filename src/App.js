@@ -1,26 +1,20 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
 
-function App() {
+import Slider from './components/slider/Slider';
+
+import slide01 from './img/slider/slider01.jpg';
+import slide02 from './img/slider/slider02.jpg';
+import slide03 from './img/slider/slider03.jpg';
+import slide04 from './img/slider/slider04.jpg';
+import slide05 from './img/slider/slider05.jpg';
+
+const App = () => {
+  const imagesArray = [slide01, slide02, slide03, slide04, slide05];
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Slider images={imagesArray} />
+    </>
   );
-}
+};
 
 export default App;
