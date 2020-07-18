@@ -37,7 +37,6 @@ const Navbar = () => {
         <NavbarOptions menuStatus={menuStatus} options={options} />
         <HamburgerMenu icon={Icon} toogleMenu={toogleMenu} />
       </div>
-      <div className="line"></div>
     </>
   );
 };

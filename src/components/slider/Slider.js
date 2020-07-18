@@ -86,14 +86,6 @@ const Slider = ({ images }) => {
       >
         <SliderImage src={sliderImages.right} />
       </div>
-      <div
-        className="button-left"
-        onClick={() => move(active - 1, 'left')}
-      ></div>
-      <div
-        className="button-right"
-        onClick={() => move(active + 1, 'right')}
-      ></div>
       <SliderBar
         images={images}
         active={active}

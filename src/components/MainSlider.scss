@@ -1,0 +1,10 @@
+.main-slider {
+  position: relative;
+  top: 81px;
+}
+
+@media (min-width: 1024px) {
+  .main-slider {
+    top: 101px;
+  }
+}
