@@ -15,10 +15,10 @@ const Navbar = () => {
 
   const options = [
     { id: 'mariana', name: 'Mariana' },
-    { id: 'pregnancy', name: 'Embarazo' },
+    { id: 'embarazo', name: 'Embarazo' },
     { id: 'newborn', name: 'Newborn' },
     { id: 'baby', name: 'Baby' },
-    { id: 'christening', name: 'Bautizo' },
+    { id: 'bautizo', name: 'Bautizo' },
     { id: 'smash', name: 'Smash Cake' },
     { id: 'location', name: 'Ubicación' },
     { id: 'customer', name: 'Clientes' },

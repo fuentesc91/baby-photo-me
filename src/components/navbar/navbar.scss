@@ -52,6 +52,7 @@
     color: rgba($color: #000, $alpha: 0.3);
     font-size: 1.2rem;
     text-decoration: none;
+    display: block;
     &:active {
       background-color: whitesmoke;
       color: rgba($color: #000, $alpha: 0.5);
