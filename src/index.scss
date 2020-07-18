@@ -1,0 +1,37 @@
+@font-face {
+  font-family: 'AlteHaasGrotesk';
+  src: url('./fonts/AlteHaasGroteskRegular.ttf');
+}
+@font-face {
+  font-family: 'AlteHaasGrotesk';
+  src: url('./fonts/AlteHaasGroteskBold.ttf');
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: 'Charline';
+  src: url('./fonts/Charline\ font.otf');
+}
+
+$color-font: #6d6d6d;
+
+html * {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  color: $color-font;
+}
+
+body {
+  margin: 0;
+  font-family: 'AlteHaasGrotesk', serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: 'Charline', cursive;
+  font-size: 3rem;
+}

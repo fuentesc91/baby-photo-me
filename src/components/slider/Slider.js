@@ -5,9 +5,6 @@ import SliderBar from './SliderBar';
 
 import './slider.scss';
 
-import ArrowLeft from '../../img/icons/arrow-left.png';
-import ArrowRight from '../../img/icons/arrow-right.png';
-
 const Slider = ({ images }) => {
   const [active, setActive] = useState(0);
   const [sliderImages, setSliderImages] = useState({
@@ -21,14 +18,22 @@ const Slider = ({ images }) => {
 
   const onNavButtonClick = (nextActive) => {
     if (nextActive > active) {
-      moveRight(nextActive);
+      move(nextActive, 'right');
     }
     if (nextActive < active) {
-      moveLeft(nextActive);
+      move(nextActive, 'left');
     }
   };
 
-  const moveRight = (nextActive) => {
+  const move = (nextActive, direction) => {
+    let directionValue = 0;
+    if (direction === 'right') {
+      directionValue = -100;
+    } else if (direction === 'left') {
+      directionValue = 100;
+    } else {
+      return null;
+    }
     if (block) {
       return null;
     }
@@ -36,32 +41,8 @@ const Slider = ({ images }) => {
       nextActive = 0;
     }
     setBlock(true);
-    setSliderImages({ ...sliderImages, right: images[nextActive] });
-    setPosition(position - 100);
-    setActive(nextActive);
-    setTimeout(() => {
-      setTransition(0);
-      setSliderImages({
-        left: null,
-        center: images[nextActive],
-        right: null,
-      });
-      setPosition(-100);
-      setBlock(false);
-    }, 1100);
-    setTransition(1);
-  };
-
-  const moveLeft = (nextActive) => {
-    if (block) {
-      return null;
-    }
-    if (nextActive < 0) {
-      nextActive = images.length - 1;
-    }
-    setBlock(true);
-    setSliderImages({ ...sliderImages, left: images[nextActive] });
-    setPosition(position + 100);
+    setSliderImages({ ...sliderImages, [direction]: images[nextActive] });
+    setPosition(position + directionValue);
     setActive(nextActive);
     setTimeout(() => {
       setTransition(0);
@@ -105,12 +86,14 @@ const Slider = ({ images }) => {
       >
         <SliderImage src={sliderImages.right} />
       </div>
-      <div className="button-left" onClick={() => moveLeft(active - 1)}>
-        <img src={ArrowLeft} alt="arrow-left" />
-      </div>
-      <div className="button-right" onClick={() => moveRight(active + 1)}>
-        <img src={ArrowRight} alt="arrow-right" />
-      </div>
+      <div
+        className="button-left"
+        onClick={() => move(active - 1, 'left')}
+      ></div>
+      <div
+        className="button-right"
+        onClick={() => move(active + 1, 'right')}
+      ></div>
       <SliderBar
         images={images}
         active={active}
