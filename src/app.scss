@@ -2,3 +2,21 @@
   max-width: 1440px;
   padding: 0;
 }
+
+.hide-mobile {
+  display: none;
+}
+
+.hide-desktop {
+  display: block;
+}
+
+@media (min-width: 1024px) {
+  .hide-mobile {
+    display: block;
+  }
+
+  .hide-desktop {
+    display: none;
+  }
+}
