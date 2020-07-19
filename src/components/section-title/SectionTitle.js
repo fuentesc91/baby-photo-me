@@ -3,6 +3,10 @@ import React from 'react';
 import './SectionTitle.scss';
 
 const SectionTitle = ({ title, textTitle, description, baby, smash }) => {
+  const openLink = (url) => {
+    window.open(url, '_blank');
+  };
+
   return (
     <div className="section-title container-fluid">
       <div className="row row-title">
@@ -12,6 +16,7 @@ const SectionTitle = ({ title, textTitle, description, baby, smash }) => {
             className={`${baby ? 'baby-format' : ''}${
               smash ? 'smash-format' : ''
             }`}
+            onClick={() => openLink('https://bit.ly/infoFotosMarianaEnciso')}
           >
             <img src={title} alt={textTitle} />
           </h2>

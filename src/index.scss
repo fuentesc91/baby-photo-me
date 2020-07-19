@@ -1,19 +1,4 @@
-@font-face {
-  font-family: 'AlteHaasGrotesk';
-  src: url('./fonts/AlteHaasGroteskRegular.ttf');
-}
-@font-face {
-  font-family: 'AlteHaasGrotesk';
-  src: url('./fonts/AlteHaasGroteskBold.ttf');
-  font-weight: bold;
-}
-
-@font-face {
-  font-family: 'Charline';
-  src: url('./fonts/Charline\ font.otf');
-}
-
-$color-font: #6d6d6d;
+@import './constants.scss';
 
 html * {
   box-sizing: border-box;

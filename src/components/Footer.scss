@@ -1,0 +1,32 @@
+@import '../constants.scss';
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer-follow-me {
+  width: 50%;
+  height: 60px;
+}
+
+.footer-contact {
+  // border: 1px solid red;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 120px;
+  background-color: $contrast-blue;
+}
+
+.footer-location {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 130%;
+  padding: 0 15px;
+  margin: 10px 0;
+  border-right: 1px solid rgb(221, 237, 240);
+}

@@ -8,6 +8,8 @@ import Baby from './components/Baby';
 import Bautizo from './components/Bautizo';
 import Smash from './components/Smash';
 
+import Footer from './components/Footer';
+
 import './app.scss';
 
 const App = () => {
@@ -20,6 +22,7 @@ const App = () => {
       <Baby />
       <Bautizo />
       <Smash />
+      <Footer />
     </div>
   );
 };
