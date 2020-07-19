@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/baby-photo-me/static/css/main.0bb5e0bb.chunk.css",
-    "main.js": "/baby-photo-me/static/js/main.ed4376dd.chunk.js",
-    "main.js.map": "/baby-photo-me/static/js/main.ed4376dd.chunk.js.map",
+    "main.css": "/baby-photo-me/static/css/main.75d74a70.chunk.css",
+    "main.js": "/baby-photo-me/static/js/main.3a28b42a.chunk.js",
+    "main.js.map": "/baby-photo-me/static/js/main.3a28b42a.chunk.js.map",
     "runtime-main.js": "/baby-photo-me/static/js/runtime-main.7369ebce.js",
     "runtime-main.js.map": "/baby-photo-me/static/js/runtime-main.7369ebce.js.map",
-    "static/js/2.9a844520.chunk.js": "/baby-photo-me/static/js/2.9a844520.chunk.js",
-    "static/js/2.9a844520.chunk.js.map": "/baby-photo-me/static/js/2.9a844520.chunk.js.map",
+    "static/js/2.73eb789c.chunk.js": "/baby-photo-me/static/js/2.73eb789c.chunk.js",
+    "static/js/2.73eb789c.chunk.js.map": "/baby-photo-me/static/js/2.73eb789c.chunk.js.map",
     "index.html": "/baby-photo-me/index.html",
-    "precache-manifest.38dd727787707952aa519761d2889dcc.js": "/baby-photo-me/precache-manifest.38dd727787707952aa519761d2889dcc.js",
+    "precache-manifest.e700f612803f87533cd9510024e1b64a.js": "/baby-photo-me/precache-manifest.e700f612803f87533cd9510024e1b64a.js",
     "service-worker.js": "/baby-photo-me/service-worker.js",
-    "static/css/main.0bb5e0bb.chunk.css.map": "/baby-photo-me/static/css/main.0bb5e0bb.chunk.css.map",
-    "static/js/2.9a844520.chunk.js.LICENSE.txt": "/baby-photo-me/static/js/2.9a844520.chunk.js.LICENSE.txt",
-    "static/media/index.scss": "/baby-photo-me/static/media/Charline font.134ec6cc.otf",
+    "static/css/main.75d74a70.chunk.css.map": "/baby-photo-me/static/css/main.75d74a70.chunk.css.map",
+    "static/js/2.73eb789c.chunk.js.LICENSE.txt": "/baby-photo-me/static/js/2.73eb789c.chunk.js.LICENSE.txt",
+    "static/media/Footer.scss": "/baby-photo-me/static/media/Charline font.134ec6cc.otf",
     "static/media/baby01.jpg": "/baby-photo-me/static/media/baby01.5a8d221a.jpg",
     "static/media/baby02.jpg": "/baby-photo-me/static/media/baby02.6dd64dc8.jpg",
     "static/media/baby03.jpg": "/baby-photo-me/static/media/baby03.98569ecb.jpg",
@@ -47,8 +47,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.7369ebce.js",
-    "static/js/2.9a844520.chunk.js",
-    "static/css/main.0bb5e0bb.chunk.css",
-    "static/js/main.ed4376dd.chunk.js"
+    "static/js/2.73eb789c.chunk.js",
+    "static/css/main.75d74a70.chunk.css",
+    "static/js/main.3a28b42a.chunk.js"
   ]
 }
