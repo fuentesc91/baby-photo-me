@@ -18,14 +18,14 @@ const App = () => {
 
   useEffect(() => {
     window.onscroll = () => {
-      if (window.pageYOffset > scrollPosition + 200) {
+      if (window.pageYOffset > scrollPosition + 100) {
         setScrollPosition(window.pageYOffset);
         if (navbarStatus) {
           setNavbarStatus(false);
         }
       }
 
-      if (window.pageYOffset < scrollPosition - 200) {
+      if (window.pageYOffset < scrollPosition - 100) {
         setScrollPosition(window.pageYOffset);
         if (!navbarStatus) {
           setNavbarStatus(true);
@@ -42,7 +42,7 @@ const App = () => {
       <div style={{ position: 'fixed', top: 0, zIndex: 999 }}>
         {scrollPosition}, {navbarStatus ? 'true' : 'false'}
       </div>
-      <Navbar scrollPosition={scrollPosition} navbarStatus={navbarStatus} />
+      <Navbar navbarStatus={navbarStatus} setNavbarStatus={setNavbarStatus} />
       <MainSlider />
       <Embarazo />
       <NewBorn />

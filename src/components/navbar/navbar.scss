@@ -8,6 +8,9 @@
   background-color: white;
   height: 80px;
   top: 0;
+  &.hide-navbar {
+    transform: translateY(-80px);
+  }
   transform: translateY(0px);
   transition: 1s;
   z-index: 99;
