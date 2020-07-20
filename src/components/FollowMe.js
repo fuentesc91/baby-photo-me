@@ -9,7 +9,7 @@ import './FollowMe.scss';
 const FollowMe = () => {
   return (
     <div className="follow-me">
-      <span className="cursive sigueme">Sígueme</span>
+      <h3 className="cursive sigueme">Sígueme</h3>
       <a
         href="https://www.facebook.com/MarianaEncisoBabyPhoto/"
         target="_blank"

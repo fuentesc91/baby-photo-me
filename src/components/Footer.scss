@@ -12,8 +12,7 @@
   height: 60px;
 }
 
-.footer-contact {
-  // border: 1px solid red;
+.footer-data {
   display: flex;
   align-items: center;
   width: 100%;
@@ -25,8 +24,27 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 130%;
-  padding: 0 15px;
+  height: 100%;
+  width: 55%;
+  padding: 15px 15px;
   margin: 10px 0;
   border-right: 1px solid rgb(221, 237, 240);
+}
+
+.footer-contact {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 45%;
+  padding: 15px 15px;
+  margin: 10px 0;
+}
+
+.footer-logo {
+  height: 110px;
+  & img {
+    height: 100%;
+    padding: 25px 0;
+  }
 }
