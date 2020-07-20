@@ -15,6 +15,15 @@
   display: block;
 }
 
+.bottom-line-white {
+  width: 90%;
+  margin: auto;
+  height: 15px;
+  background-image: url('./img/visuals/dots-white.png');
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
 @media (min-width: 1024px) {
   .hide-mobile {
     display: block;

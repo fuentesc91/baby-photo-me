@@ -1,3 +1,5 @@
+@import '../constants.scss';
+
 .location {
   position: relative;
   width: 100%;
@@ -16,13 +18,7 @@
   }
 }
 
-.bottom-line-white {
-  width: 90%;
-  margin: auto;
-  height: 15px;
-  background-image: url('../img/visuals/dots-white.png');
-  background-repeat: no-repeat;
-  background-position: center center;
+.bottom-line-location {
   background-size: 380%;
 }
 

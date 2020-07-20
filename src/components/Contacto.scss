@@ -1,0 +1,22 @@
+@import '../constants.scss';
+
+.contact-container {
+  width: 100%;
+}
+
+.contact-phone {
+  position: relative;
+  font-weight: bold;
+  padding-left: 28px;
+  &::before {
+    content: url('../img/icons/phone-icon.png');
+    position: absolute;
+    transform: scale(0.35);
+    left: -18px;
+    top: -20px;
+  }
+}
+
+.bottom-line-contacto {
+  background-size: 650%;
+}

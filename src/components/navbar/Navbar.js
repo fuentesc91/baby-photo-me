@@ -27,13 +27,21 @@ const Navbar = () => {
     setMenuStatus(!menuStatus);
   };
 
+  const closeMenu = () => {
+    setMenuStatus(false);
+  };
+
   return (
     <>
       <div className="navbar">
         <div className="navbar-logo">
           <img src={LogoPink} alt="Mariana Enciso Logo" />
         </div>
-        <NavbarOptions menuStatus={menuStatus} options={options} />
+        <NavbarOptions
+          menuStatus={menuStatus}
+          options={options}
+          closeMenu={closeMenu}
+        />
         <HamburgerMenu icon={Icon} toogleMenu={toogleMenu} />
       </div>
     </>

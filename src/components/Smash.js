@@ -16,7 +16,7 @@ const Smash = () => {
   const images = [smash01, smash02, smash03, smash04, smash05, smash06];
 
   return (
-    <div id="pregnancy">
+    <div id="smash">
       <SectionTitle
         title={SmashTitle}
         textTitle="Smash"
