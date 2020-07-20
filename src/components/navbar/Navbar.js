@@ -20,10 +20,9 @@ const Navbar = () => {
     { id: 'baby', name: 'Baby' },
     { id: 'bautizo', name: 'Bautizo' },
     { id: 'smash', name: 'Smash Cake' },
-    { id: 'location', name: 'Ubicación' },
-    { id: 'customer', name: 'Clientes' },
+    { id: 'estudio', name: 'Estudio' },
+    { id: 'contacto', name: 'Contacto' },
   ];
-
   const toogleMenu = () => {
     setMenuStatus(!menuStatus);
   };

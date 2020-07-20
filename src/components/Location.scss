@@ -1,0 +1,37 @@
+.location {
+  position: relative;
+  width: 100%;
+}
+
+.location-text {
+  font-size: 0.7rem;
+  position: relative;
+  display: inline-block;
+  &::before {
+    content: url('../img/icons/location-icon.png');
+    position: absolute;
+    transform: scale(0.35);
+    top: -25px;
+    left: -20px;
+  }
+}
+
+.bottom-line-white {
+  width: 90%;
+  margin: auto;
+  height: 15px;
+  background-image: url('../img/visuals/dots-white.png');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 380%;
+}
+
+@media (min-width: 768px) {
+  .location-text {
+    font-size: 0.9rem;
+    &::before {
+      transform: scale(0.5);
+      top: -20px;
+    }
+  }
+}
