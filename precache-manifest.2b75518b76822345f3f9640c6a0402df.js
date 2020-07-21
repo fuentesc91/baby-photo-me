@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "ec7a39f4a677dc0fd836a307ca8febe4",
+    "revision": "6548afbf95f35be4d83789832b7320d2",
     "url": "/baby-photo-me/index.html"
   },
   {
-    "revision": "c3a6075a85325b95faf3",
-    "url": "/baby-photo-me/static/css/main.33cdb8dc.chunk.css"
+    "revision": "608077b02f9a647c0779",
+    "url": "/baby-photo-me/static/css/main.c5290dae.chunk.css"
   },
   {
     "revision": "2160b17ce6fa85678442",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/baby-photo-me/static/js/2.f2658451.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "c3a6075a85325b95faf3",
-    "url": "/baby-photo-me/static/js/main.f5688353.chunk.js"
+    "revision": "608077b02f9a647c0779",
+    "url": "/baby-photo-me/static/js/main.86f7c14d.chunk.js"
   },
   {
     "revision": "64375af4a32c9e7d8df7",
