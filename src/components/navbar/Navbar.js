@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 
 // Components
 import HamburgerMenu from './HamburgerMenu';
@@ -10,8 +10,14 @@ import Icon from '../../img/icons/hamburger-menu.png';
 
 import './navbar.scss';
 
-const Navbar = () => {
+const Navbar = ({ navbarStatus, setNavbarStatus }) => {
   const [menuStatus, setMenuStatus] = useState(false);
+
+  useEffect(() => {
+    if (!navbarStatus) {
+      closeMenu();
+    }
+  }, [navbarStatus]);
 
   const options = [
     { id: 'mariana', name: 'Mariana' },
@@ -27,14 +33,39 @@ const Navbar = () => {
     setMenuStatus(!menuStatus);
   };
 
+  const toggleNavbar = () => {
+    setNavbarStatus(!navbarStatus);
+  };
+
+  const closeOnClick = () => {
+    closeMenu();
+    setTimeout(() => {
+      setNavbarStatus(false);
+    }, 600);
+  };
+
+  const closeMenu = () => {
+    setMenuStatus(false);
+  };
+
   return (
     <>
-      <div className="navbar">
+      <div className={`navbar${navbarStatus ? '' : ' hide-navbar'}`}>
         <div className="navbar-logo">
           <img src={LogoPink} alt="Mariana Enciso Logo" />
         </div>
-        <NavbarOptions menuStatus={menuStatus} options={options} />
+        <NavbarOptions
+          menuStatus={menuStatus}
+          options={options}
+          closeMenu={closeOnClick}
+        />
         <HamburgerMenu icon={Icon} toogleMenu={toogleMenu} />
+        <div
+          className={`show-hide-menu d-big-none ${
+            !navbarStatus && 'change-status'
+          }`}
+          onClick={toggleNavbar}
+        ></div>
       </div>
     </>
   );
