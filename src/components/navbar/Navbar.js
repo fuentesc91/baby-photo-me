@@ -33,6 +33,10 @@ const Navbar = ({ navbarStatus, setNavbarStatus }) => {
     setMenuStatus(!menuStatus);
   };
 
+  const toggleNavbar = () => {
+    setNavbarStatus(!navbarStatus);
+  };
+
   const closeOnClick = () => {
     closeMenu();
     setTimeout(() => {
@@ -56,6 +60,12 @@ const Navbar = ({ navbarStatus, setNavbarStatus }) => {
           closeMenu={closeOnClick}
         />
         <HamburgerMenu icon={Icon} toogleMenu={toogleMenu} />
+        <div
+          className={`show-hide-menu d-big-none ${
+            !navbarStatus && 'change-status'
+          }`}
+          onClick={toggleNavbar}
+        ></div>
       </div>
     </>
   );

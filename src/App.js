@@ -39,9 +39,6 @@ const App = () => {
 
   return (
     <div className="site-container container-fluid">
-      <div style={{ position: 'fixed', top: 0, zIndex: 999 }}>
-        {scrollPosition}, {navbarStatus ? 'true' : 'false'}
-      </div>
       <Navbar navbarStatus={navbarStatus} setNavbarStatus={setNavbarStatus} />
       <MainSlider />
       <Embarazo />

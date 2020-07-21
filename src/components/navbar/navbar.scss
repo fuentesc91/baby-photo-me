@@ -1,3 +1,5 @@
+@import '../../constants.scss';
+
 .navbar {
   position: fixed;
   display: flex;
@@ -12,7 +14,7 @@
     transform: translateY(-80px);
   }
   transform: translateY(0px);
-  transition: 1s;
+  transition: 0.7s;
   z-index: 99;
   &.hide {
     transform: translateY(-80px); //TODO apply this to remove
@@ -30,6 +32,7 @@
 .navbar-hamburger-menu {
   position: absolute;
   right: 20px;
+  padding: 10px 5px;
   border-radius: 8px;
   &:active {
     border: 2px solid #e6e6e6;
@@ -63,6 +66,25 @@
   }
 }
 
+.show-hide-menu {
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  background-color: $contrast-blue;
+  top: -25px;
+  right: 42px;
+  border-radius: 50%;
+  transition: 0.5s ease-out;
+}
+
+.change-status {
+  transform: translateY(105px);
+}
+
+.d-big-none {
+  display: block;
+}
+
 @media (min-width: 1024px) {
   .navbar {
     height: 100px;
@@ -93,6 +115,10 @@
 
   .line {
     top: 100px;
+  }
+
+  .d-big-none {
+    display: none;
   }
 }
 
