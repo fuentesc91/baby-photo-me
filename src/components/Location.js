@@ -19,7 +19,7 @@ const Location = () => {
           Guadalajara, Jalisco. México
         </div>
       </div>
-      <div className="bottom-line-white bottom-line-location"></div>
+      <div className="bottom-line bottom-line-white bottom-line-location"></div>
     </div>
   );
 };

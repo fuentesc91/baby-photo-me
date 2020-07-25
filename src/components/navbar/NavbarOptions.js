@@ -1,14 +1,15 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const NavbarOptions = ({ menuStatus, options, closeMenu }) => {
   return (
     <ul className={`navbar-options ${menuStatus ? 'show' : null}`}>
-      {options.map(({ id, name }, index) => {
+      {options.map(({ route, name }, index) => {
         return (
           <li key={index}>
-            <a href={`#${id}`} onClick={closeMenu}>
+            <Link to={route} onClick={closeMenu}>
               {name}
-            </a>
+            </Link>
           </li>
         );
       })}

@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import { Link } from 'react-router-dom';
 
 // Components
 import HamburgerMenu from './HamburgerMenu';
@@ -20,14 +21,14 @@ const Navbar = ({ navbarStatus, setNavbarStatus }) => {
   }, [navbarStatus]);
 
   const options = [
-    { id: 'mariana', name: 'Mariana' },
-    { id: 'embarazo', name: 'Embarazo' },
-    { id: 'newborn', name: 'Newborn' },
-    { id: 'baby', name: 'Baby' },
-    { id: 'bautizo', name: 'Bautizo' },
-    { id: 'smash', name: 'Smash Cake' },
-    { id: 'estudio', name: 'Estudio' },
-    { id: 'contacto', name: 'Contacto' },
+    { route: '/mariana', name: 'Mariana' },
+    { route: '/#embarazo', name: 'Embarazo' },
+    { route: '/#newborn', name: 'Newborn' },
+    { route: '/#baby', name: 'Baby' },
+    { route: '/#bautizo', name: 'Bautizo' },
+    { route: '/#smash', name: 'Smash Cake' },
+    { route: '/#estudio', name: 'Estudio' },
+    { route: '/#contacto', name: 'Contacto' },
   ];
   const toogleMenu = () => {
     setMenuStatus(!menuStatus);
@@ -50,9 +51,12 @@ const Navbar = ({ navbarStatus, setNavbarStatus }) => {
 
   return (
     <>
+      <div className="spacing-navbar"></div>
       <div className={`navbar${navbarStatus ? '' : ' hide-navbar'}`}>
         <div className="navbar-logo">
-          <img src={LogoPink} alt="Mariana Enciso Logo" />
+          <Link to="/" onClick={closeMenu}>
+            <img src={LogoPink} alt="Mariana Enciso Logo" />
+          </Link>
         </div>
         <NavbarOptions
           menuStatus={menuStatus}

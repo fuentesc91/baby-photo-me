@@ -15,7 +15,7 @@ const SliderImage = ({ src }) => {
 
   return (
     <img
-      class="slider-image"
+      className="slider-image"
       src={src.image}
       alt="slder-img"
       style={imgStyle}

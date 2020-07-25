@@ -1,12 +1,12 @@
 import React from 'react';
 
-import FollowMe from './FollowMe';
-import Location from './Location';
-import Contacto from './Contacto';
+import FollowMe from '../components/FollowMe';
+import Location from '../components/Location';
+import Contacto from '../components/Contacto';
 
 import LogoPink from '../img/logos/logo-pink.png';
 
-import './Footer.scss';
+import './styles/Footer.scss';
 
 const Footer = () => {
   return (

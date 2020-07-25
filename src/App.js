@@ -1,14 +1,9 @@
 import React, { useState, useEffect } from 'react';
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 
 import Navbar from './components/navbar/Navbar';
-import MainSlider from './components/MainSlider';
-import Embarazo from './components/Embarazo';
-import NewBorn from './components/NewBorn';
-import Baby from './components/Baby';
-import Bautizo from './components/Bautizo';
-import Smash from './components/Smash';
-
-import Footer from './components/Footer';
+import Home from './views/Home';
+import Mariana from './views/Mariana';
 
 import './app.scss';
 
@@ -39,14 +34,17 @@ const App = () => {
 
   return (
     <div className="site-container container-fluid">
-      <Navbar navbarStatus={navbarStatus} setNavbarStatus={setNavbarStatus} />
-      <MainSlider />
-      <Embarazo />
-      <NewBorn />
-      <Baby />
-      <Bautizo />
-      <Smash />
-      <Footer />
+      <Router>
+        <Navbar navbarStatus={navbarStatus} setNavbarStatus={setNavbarStatus} />
+        <Switch>
+          <Route exact path="/">
+            <Home />
+          </Route>
+          <Route exact path="/mariana">
+            <Mariana />
+          </Route>
+        </Switch>
+      </Router>
     </div>
   );
 };
