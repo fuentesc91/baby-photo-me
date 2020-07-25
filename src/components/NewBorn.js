@@ -11,7 +11,12 @@ import newborn03 from '../img/newborn/newborn03.jpg';
 import newborn04 from '../img/newborn/newborn04.jpg';
 
 const Newborn = () => {
-  const images = [newborn01, newborn02, newborn03, newborn04];
+  const images = [
+    { image: newborn01, vertical: false },
+    { image: newborn02, vertical: false },
+    { image: newborn03, vertical: false },
+    { image: newborn04, vertical: false },
+  ];
 
   return (
     <div id="newborn">

@@ -1,14 +1,26 @@
 import React from 'react';
 
 const SliderImage = ({ src }) => {
+  if (!src) {
+    return <div />;
+  }
   const imgStyle = {
-    width: '100%',
-    height: 'auto',
+    width: src.vertical ? 'auto' : '100%',
+    height: src.vertical ? '100%' : 'auto',
     position: 'absolute',
     top: '50%',
-    transform: 'translateY(-50%)',
+    left: '50%',
+    transform: 'translate(-50%, -50%)',
   };
-  return <img src={src} alt="slder-img" style={imgStyle} />;
+
+  return (
+    <img
+      class="slider-image"
+      src={src.image}
+      alt="slder-img"
+      style={imgStyle}
+    />
+  );
 };
 
 export default SliderImage;

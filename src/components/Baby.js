@@ -13,7 +13,14 @@ import baby05 from '../img/baby/baby05.jpg';
 import baby06 from '../img/baby/baby06.jpg';
 
 const Baby = () => {
-  const images = [baby01, baby02, baby03, baby04, baby05, baby06];
+  const images = [
+    { image: baby01, vertical: false },
+    { image: baby02, vertical: false },
+    { image: baby03, vertical: false },
+    { image: baby04, vertical: true },
+    { image: baby05, vertical: false },
+    { image: baby06, vertical: false },
+  ];
 
   return (
     <div id="baby">

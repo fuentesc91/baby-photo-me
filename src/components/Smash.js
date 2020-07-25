@@ -13,7 +13,14 @@ import smash05 from '../img/smash/smash05.jpg';
 import smash06 from '../img/smash/smash06.jpg';
 
 const Smash = () => {
-  const images = [smash01, smash02, smash03, smash04, smash05, smash06];
+  const images = [
+    { image: smash01, vertical: false },
+    { image: smash02, vertical: false },
+    { image: smash03, vertical: false },
+    { image: smash04, vertical: false },
+    { image: smash05, vertical: false },
+    { image: smash06, vertical: false },
+  ];
 
   return (
     <div id="smash">
