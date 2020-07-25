@@ -9,6 +9,7 @@
 
 .slide {
   min-width: 100%;
+  background-color: rgb(53, 53, 53);
 }
 
 .slider-bar {
@@ -35,6 +36,12 @@
   opacity: 0.8;
   width: 1.6vw;
   height: 1.6vw;
+}
+
+.slider-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 @media (min-width: 1024px) {

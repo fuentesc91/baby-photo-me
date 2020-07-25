@@ -96,7 +96,7 @@ const Slider = ({ images }) => {
       {images.map((image, index) => {
         return (
           <div key={index} style={{ display: 'none' }}>
-            <img src={image} alt="you shouldn't see this" />
+            <img src={image.image} alt="you shouldn't see this" />
           </div>
         );
       })}

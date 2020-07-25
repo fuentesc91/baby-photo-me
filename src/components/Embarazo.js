@@ -14,12 +14,12 @@ import embarazo06 from '../img/embarazo/embarazo06.jpg';
 
 const Embarazo = () => {
   const images = [
-    embarazo01,
-    embarazo02,
-    embarazo03,
-    embarazo04,
-    embarazo05,
-    embarazo06,
+    { image: embarazo01, vertical: false },
+    { image: embarazo02, vertical: false },
+    { image: embarazo03, vertical: false },
+    { image: embarazo04, vertical: false },
+    { image: embarazo05, vertical: false },
+    { image: embarazo06, vertical: false },
   ];
 
   return (

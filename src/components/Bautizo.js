@@ -11,7 +11,12 @@ import bautizo03 from '../img/bautizo/bautizo03.jpg';
 import bautizo04 from '../img/bautizo/bautizo04.jpg';
 
 const Bautizo = () => {
-  const images = [bautizo01, bautizo02, bautizo03, bautizo04];
+  const images = [
+    { image: bautizo01, vertical: false },
+    { image: bautizo02, vertical: false },
+    { image: bautizo03, vertical: false },
+    { image: bautizo04, vertical: false },
+  ];
 
   return (
     <div id="bautizo">
