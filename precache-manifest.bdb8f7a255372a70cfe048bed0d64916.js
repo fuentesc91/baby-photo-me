@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "6548afbf95f35be4d83789832b7320d2",
+    "revision": "7f2e03296a29d883832f90a18f12a90b",
     "url": "/baby-photo-me/index.html"
   },
   {
-    "revision": "608077b02f9a647c0779",
-    "url": "/baby-photo-me/static/css/main.c5290dae.chunk.css"
+    "revision": "9e799e5d2cb1acdee98d",
+    "url": "/baby-photo-me/static/css/main.b6602b28.chunk.css"
   },
   {
-    "revision": "2160b17ce6fa85678442",
-    "url": "/baby-photo-me/static/js/2.f2658451.chunk.js"
+    "revision": "d412d3b564f3257bb3e3",
+    "url": "/baby-photo-me/static/js/2.58b6b480.chunk.js"
   },
   {
     "revision": "e88a3e95b5364d46e95b35ae8c0dc27d",
-    "url": "/baby-photo-me/static/js/2.f2658451.chunk.js.LICENSE.txt"
+    "url": "/baby-photo-me/static/js/2.58b6b480.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "608077b02f9a647c0779",
-    "url": "/baby-photo-me/static/js/main.86f7c14d.chunk.js"
+    "revision": "9e799e5d2cb1acdee98d",
+    "url": "/baby-photo-me/static/js/main.1e3f1db0.chunk.js"
   },
   {
     "revision": "64375af4a32c9e7d8df7",
@@ -134,6 +134,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "8b09ebe3eb4d6a1bd6875de11f41b61c",
     "url": "/baby-photo-me/static/media/slider05.8b09ebe3.jpg"
+  },
+  {
+    "revision": "e6a8e84147a9bb0b44fef57c37d7666a",
+    "url": "/baby-photo-me/static/media/slider06.e6a8e841.jpg"
   },
   {
     "revision": "ae0e94de001da20f5d88b49c563995a4",

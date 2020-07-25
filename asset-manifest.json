@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/baby-photo-me/static/css/main.c5290dae.chunk.css",
-    "main.js": "/baby-photo-me/static/js/main.86f7c14d.chunk.js",
-    "main.js.map": "/baby-photo-me/static/js/main.86f7c14d.chunk.js.map",
+    "main.css": "/baby-photo-me/static/css/main.b6602b28.chunk.css",
+    "main.js": "/baby-photo-me/static/js/main.1e3f1db0.chunk.js",
+    "main.js.map": "/baby-photo-me/static/js/main.1e3f1db0.chunk.js.map",
     "runtime-main.js": "/baby-photo-me/static/js/runtime-main.7369ebce.js",
     "runtime-main.js.map": "/baby-photo-me/static/js/runtime-main.7369ebce.js.map",
-    "static/js/2.f2658451.chunk.js": "/baby-photo-me/static/js/2.f2658451.chunk.js",
-    "static/js/2.f2658451.chunk.js.map": "/baby-photo-me/static/js/2.f2658451.chunk.js.map",
+    "static/js/2.58b6b480.chunk.js": "/baby-photo-me/static/js/2.58b6b480.chunk.js",
+    "static/js/2.58b6b480.chunk.js.map": "/baby-photo-me/static/js/2.58b6b480.chunk.js.map",
     "index.html": "/baby-photo-me/index.html",
-    "precache-manifest.2b75518b76822345f3f9640c6a0402df.js": "/baby-photo-me/precache-manifest.2b75518b76822345f3f9640c6a0402df.js",
+    "precache-manifest.bdb8f7a255372a70cfe048bed0d64916.js": "/baby-photo-me/precache-manifest.bdb8f7a255372a70cfe048bed0d64916.js",
     "service-worker.js": "/baby-photo-me/service-worker.js",
-    "static/css/main.c5290dae.chunk.css.map": "/baby-photo-me/static/css/main.c5290dae.chunk.css.map",
-    "static/js/2.f2658451.chunk.js.LICENSE.txt": "/baby-photo-me/static/js/2.f2658451.chunk.js.LICENSE.txt",
+    "static/css/main.b6602b28.chunk.css.map": "/baby-photo-me/static/css/main.b6602b28.chunk.css.map",
+    "static/js/2.58b6b480.chunk.js.LICENSE.txt": "/baby-photo-me/static/js/2.58b6b480.chunk.js.LICENSE.txt",
     "static/media/Footer.scss": "/baby-photo-me/static/media/Charline font.134ec6cc.otf",
     "static/media/baby01.jpg": "/baby-photo-me/static/media/baby01.5a8d221a.jpg",
     "static/media/baby02.jpg": "/baby-photo-me/static/media/baby02.6dd64dc8.jpg",
@@ -38,6 +38,7 @@
     "static/media/slider03.jpg": "/baby-photo-me/static/media/slider03.a5c1a18f.jpg",
     "static/media/slider04.jpg": "/baby-photo-me/static/media/slider04.0a1f3dd6.jpg",
     "static/media/slider05.jpg": "/baby-photo-me/static/media/slider05.8b09ebe3.jpg",
+    "static/media/slider06.jpg": "/baby-photo-me/static/media/slider06.e6a8e841.jpg",
     "static/media/smash01.jpg": "/baby-photo-me/static/media/smash01.ae0e94de.jpg",
     "static/media/smash02.jpg": "/baby-photo-me/static/media/smash02.6de45e3e.jpg",
     "static/media/smash03.jpg": "/baby-photo-me/static/media/smash03.444d40a3.jpg",
@@ -47,8 +48,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.7369ebce.js",
-    "static/js/2.f2658451.chunk.js",
-    "static/css/main.c5290dae.chunk.css",
-    "static/js/main.86f7c14d.chunk.js"
+    "static/js/2.58b6b480.chunk.js",
+    "static/css/main.b6602b28.chunk.css",
+    "static/js/main.1e3f1db0.chunk.js"
   ]
 }
