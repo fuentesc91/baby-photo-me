@@ -6,7 +6,7 @@ const SliderImage = ({ src }) => {
   }
   const imgStyle = {
     width: src.vertical ? 'auto' : '100%',
-    height: src.vertical ? '100%' : 'auto',
+    height: src.vertical ? '110%' : 'auto',
     position: 'absolute',
     top: '50%',
     left: '50%',

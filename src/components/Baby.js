@@ -19,7 +19,7 @@ const Baby = () => {
     { image: baby03, vertical: false },
     { image: baby04, vertical: true },
     { image: baby05, vertical: false },
-    { image: baby06, vertical: false },
+    { image: baby06, vertical: true },
   ];
 
   return (
