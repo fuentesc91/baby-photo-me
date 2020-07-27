@@ -4,6 +4,7 @@ import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import Navbar from './components/navbar/Navbar';
 import Home from './views/Home';
 import Mariana from './views/Mariana';
+import Footer from './views/Footer';
 
 import './app.scss';
 
@@ -37,13 +38,14 @@ const App = () => {
       <Router>
         <Navbar navbarStatus={navbarStatus} setNavbarStatus={setNavbarStatus} />
         <Switch>
-          <Route exact path="/">
+          <Route exact path="/home/:id">
             <Home />
           </Route>
           <Route exact path="/mariana">
             <Mariana />
           </Route>
         </Switch>
+        <Footer />
       </Router>
     </div>
   );

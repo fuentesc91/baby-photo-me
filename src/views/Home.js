@@ -6,7 +6,6 @@ import NewBorn from './NewBorn';
 import Baby from './Baby';
 import Bautizo from './Bautizo';
 import Smash from './Smash';
-import Footer from './Footer';
 
 const Home = () => {
   return (
@@ -17,7 +16,6 @@ const Home = () => {
       <Baby />
       <Bautizo />
       <Smash />
-      <Footer />
     </>
   );
 };

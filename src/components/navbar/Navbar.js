@@ -22,13 +22,13 @@ const Navbar = ({ navbarStatus, setNavbarStatus }) => {
 
   const options = [
     { route: '/mariana', name: 'Mariana' },
-    { route: '/#embarazo', name: 'Embarazo' },
-    { route: '/#newborn', name: 'Newborn' },
-    { route: '/#baby', name: 'Baby' },
-    { route: '/#bautizo', name: 'Bautizo' },
-    { route: '/#smash', name: 'Smash Cake' },
-    { route: '/#estudio', name: 'Estudio' },
-    { route: '/#contacto', name: 'Contacto' },
+    { route: '/home/embarazo', name: 'Embarazo' },
+    { route: '/home/newborn', name: 'Newborn' },
+    { route: '/home/baby', name: 'Baby' },
+    { route: '/home/bautizo', name: 'Bautizo' },
+    { route: '/home/smash', name: 'Smash Cake' },
+    { route: '/estudio', name: 'Estudio' },
+    { route: '/contacto', name: 'Contacto' },
   ];
   const toogleMenu = () => {
     setMenuStatus(!menuStatus);
@@ -54,7 +54,7 @@ const Navbar = ({ navbarStatus, setNavbarStatus }) => {
       <div className="spacing-navbar"></div>
       <div className={`navbar${navbarStatus ? '' : ' hide-navbar'}`}>
         <div className="navbar-logo">
-          <Link to="/" onClick={closeMenu}>
+          <Link to="/home/main" onClick={closeMenu}>
             <img src={LogoPink} alt="Mariana Enciso Logo" />
           </Link>
         </div>
