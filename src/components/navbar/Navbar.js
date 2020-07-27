@@ -54,7 +54,7 @@ const Navbar = ({ navbarStatus, setNavbarStatus }) => {
       <div className="spacing-navbar"></div>
       <div className={`navbar${navbarStatus ? '' : ' hide-navbar'}`}>
         <div className="navbar-logo">
-          <Link to="/home/main" onClick={closeMenu}>
+          <Link to="/" onClick={closeMenu}>
             <img src={LogoPink} alt="Mariana Enciso Logo" />
           </Link>
         </div>
