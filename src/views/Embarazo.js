@@ -1,7 +1,7 @@
 import React from 'react';
 
-import SectionTitle from './section-title/SectionTitle';
-import Slider from './slider/Slider';
+import SectionTitle from '../components/section-title/SectionTitle';
+import Slider from '../components/slider/Slider';
 
 import EmbarazoTitle from '../img/lettering/embarazo.png';
 

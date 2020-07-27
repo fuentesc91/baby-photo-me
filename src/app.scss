@@ -1,3 +1,5 @@
+@import './constants.scss';
+
 .cursive {
   font-family: 'Charline', cursive;
 }
@@ -15,13 +17,20 @@
   display: block;
 }
 
-.bottom-line-white {
+.bottom-line {
   width: 90%;
   margin: auto;
   height: 15px;
-  background-image: url('./img/visuals/dots-white.png');
   background-repeat: no-repeat;
   background-position: center center;
+}
+
+.bottom-line-white {
+  background-image: url('./img/visuals/dots-white.png');
+}
+
+.bottom-line-blue {
+  background-image: url('./img/visuals/dots.png');
 }
 
 @media (min-width: 1024px) {

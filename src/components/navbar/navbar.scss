@@ -1,5 +1,10 @@
 @import '../../constants.scss';
 
+.spacing-navbar {
+  height: 81px;
+  width: 100%;
+}
+
 .navbar {
   position: fixed;
   display: flex;

@@ -18,7 +18,7 @@ const Contacto = () => {
           33.2596.0555
         </span>
       </div>
-      <div className="bottom-line-white bottom-line-contacto"></div>
+      <div className="bottom-line bottom-line-white bottom-line-contacto"></div>
     </div>
   );
 };
