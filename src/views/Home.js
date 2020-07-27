@@ -1,4 +1,5 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
+import { useParams } from 'react-router-dom';
 
 import MainSlider from './MainSlider';
 import Embarazo from './Embarazo';
@@ -8,6 +9,17 @@ import Bautizo from './Bautizo';
 import Smash from './Smash';
 
 const Home = () => {
+  // const [firstLoad, setFirstLoad] = useState(true);
+  const param = useParams();
+
+  useEffect(() => {
+    console.log(param);
+    const section = document.getElementById(param.id);
+    if (section) {
+      section.scrollIntoView();
+    }
+  }, [param.id]);
+
   return (
     <>
       <MainSlider />

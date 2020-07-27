@@ -32,12 +32,14 @@ const App = () => {
       window.onscroll = null;
     };
   }, [scrollPosition, navbarStatus]);
-
   return (
     <div className="site-container container-fluid">
       <Router>
         <Navbar navbarStatus={navbarStatus} setNavbarStatus={setNavbarStatus} />
         <Switch>
+          <Route exact path="/">
+            <Home />
+          </Route>
           <Route exact path="/home/:id">
             <Home />
           </Route>

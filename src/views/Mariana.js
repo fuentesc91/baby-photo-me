@@ -5,6 +5,7 @@ import MarianaTitle from '../img/lettering/mariana.png';
 import './styles/Mariana.scss';
 
 const Mariana = () => {
+  window.scrollTo(0, 0);
   return (
     <div className="mariana-container">
       <div className="mariana-title">
