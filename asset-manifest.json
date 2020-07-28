@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/baby-photo-me/static/css/main.83b7de17.chunk.css",
-    "main.js": "/baby-photo-me/static/js/main.e7916ff4.chunk.js",
-    "main.js.map": "/baby-photo-me/static/js/main.e7916ff4.chunk.js.map",
+    "main.css": "/baby-photo-me/static/css/main.620c986f.chunk.css",
+    "main.js": "/baby-photo-me/static/js/main.486f8a06.chunk.js",
+    "main.js.map": "/baby-photo-me/static/js/main.486f8a06.chunk.js.map",
     "runtime-main.js": "/baby-photo-me/static/js/runtime-main.7369ebce.js",
     "runtime-main.js.map": "/baby-photo-me/static/js/runtime-main.7369ebce.js.map",
     "static/js/2.20fe080e.chunk.js": "/baby-photo-me/static/js/2.20fe080e.chunk.js",
     "static/js/2.20fe080e.chunk.js.map": "/baby-photo-me/static/js/2.20fe080e.chunk.js.map",
     "index.html": "/baby-photo-me/index.html",
-    "precache-manifest.dc311c1fc1588d7cf3dbe9c4f50de579.js": "/baby-photo-me/precache-manifest.dc311c1fc1588d7cf3dbe9c4f50de579.js",
+    "precache-manifest.8b2b0274cabed6a80b2fc14afb8426cd.js": "/baby-photo-me/precache-manifest.8b2b0274cabed6a80b2fc14afb8426cd.js",
     "service-worker.js": "/baby-photo-me/service-worker.js",
-    "static/css/main.83b7de17.chunk.css.map": "/baby-photo-me/static/css/main.83b7de17.chunk.css.map",
+    "static/css/main.620c986f.chunk.css.map": "/baby-photo-me/static/css/main.620c986f.chunk.css.map",
     "static/js/2.20fe080e.chunk.js.LICENSE.txt": "/baby-photo-me/static/js/2.20fe080e.chunk.js.LICENSE.txt",
     "static/media/app.scss": "/baby-photo-me/static/media/Charline font.134ec6cc.otf",
     "static/media/baby01.jpg": "/baby-photo-me/static/media/baby01.5a8d221a.jpg",
@@ -51,7 +51,7 @@
   "entrypoints": [
     "static/js/runtime-main.7369ebce.js",
     "static/js/2.20fe080e.chunk.js",
-    "static/css/main.83b7de17.chunk.css",
-    "static/js/main.e7916ff4.chunk.js"
+    "static/css/main.620c986f.chunk.css",
+    "static/js/main.486f8a06.chunk.js"
   ]
 }
